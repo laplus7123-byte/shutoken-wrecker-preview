@@ -10,8 +10,8 @@
 .coverage-list dt{background:#e8f3ef;color:#1f6e5b;border-radius:7px;font-size:13px;font-weight:800;text-align:center;padding:6px 4px;}
 .coverage-list dd{margin:0;font-size:14px;line-height:1.95;color:#374b46;}
 .coverage-note{margin:18px 0;color:#6a7c77;font-size:12px;line-height:1.9;}
-.coverage-contact{display:flex;justify-content:center;align-items:center;flex-wrap:wrap;column-gap:12px;padding:14px 10px;background:#ef5d10;border-radius:10px;color:#fff;font-size:14px;font-weight:800;text-decoration:none;}
-.coverage-contact span{font-size:17px;white-space:nowrap;}
+.coverage-contact{display:flex;flex-direction:column;justify-content:center;align-items:center;gap:2px;padding:8px 10px;background:#ef5d10;border-radius:10px;color:#fff;font-size:14px;font-weight:800;line-height:1.35;text-align:center;text-decoration:none;}
+.coverage-contact span{font-family:Arial,"Helvetica Neue",sans-serif;font-size:clamp(26px,8.2cqw,32px);font-weight:800;line-height:1.1;letter-spacing:.01em;white-space:nowrap;font-variant-numeric:tabular-nums;}
 .coverage-contact:hover{background:#e04a07;}
 .coverage-contact:focus-visible,a:focus-visible,summary:focus-visible{outline:3px solid #0f4a3c;outline-offset:4px;}
 .cta-lead-mid{line-height:1.7;}
